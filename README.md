@@ -1,12 +1,15 @@
 # MyDownLoader2
 panzq
-##1.Tomcat服务搭建
+1.Tomcat服务搭建
+===
   将要下载的文件放入到Tomcat安装目录下 C:\Program Files\Apache Software Foundation\Tomcat 7.0\webapps\apks
   对应的地址为： String url = "http://192.168.12.80:8080/apks/com.tencent.mm_561.apk";
-##2.动态授权问题ss
+2.动态授权问题
+===
   android6.0及以上版本部分权限增加了动态权限机制，需要用户点击授权。
   比如：Manifest.permission.WRITE_EXTERNAL_STORAGE
-  ##代码
+  代码
+  -------
   public PermissionsChecker(Context context){
         mContext = context.getApplicationContext();
     }
