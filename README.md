@@ -50,3 +50,4 @@ panzq
             LogcatUtil.d("applyPermission:your version older than android 6.0");
         }
     }
+    
